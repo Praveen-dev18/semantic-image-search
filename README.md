@@ -17,6 +17,8 @@ A next-generation image retrieval application that allows users to search throug
    ```bash
    git clone [https://github.com/Praveen-dev18/semantic-image-search.git](https://github.com/Praveen-dev18/semantic-image-search.git)
 2. Install the necessary machine learning and web UI dependencies:
+   ```bash
    pip install streamlit transformers torch pillow
 3. Create a folder named image_database in the root directory, drop your images inside it, and boot up the local web engine:
+   ```bash
    streamlit run app.py
